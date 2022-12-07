@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const students = [
+            { Name: "Hung", km: 1 },
+            { Name: "Luong", km: 2 },
+            { Name: "Thuc", km: 4 },
+            { Name: "Tuan Anh", km: 5 },
+        ]
+        let sumKm = 0;    
+        for (let {km} of students) {
+           sumKm += km;
+        }
+        console.log(sumKm);
+    </script>
+</body>
+
+</html>
